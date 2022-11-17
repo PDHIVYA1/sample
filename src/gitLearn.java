@@ -1,12 +1,7 @@
-public class gitLearn {
-    static void pull()
+class gitLearn
+{
+     void fast(int speed,String CarName)
     {
-        System.out.println("now pull to intellij");
-        System.out.println("now push to git");
-    }
-    public static void main(String[] args)
-    {
-        pull();
-        System.out.println("pushing to git");
+        System.out.println(CarName+"'s topspeed is "+speed+"kmph");
     }
 }

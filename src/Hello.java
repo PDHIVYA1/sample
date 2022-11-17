@@ -1,12 +1,20 @@
-public class Hello {
+import java.util.*;
+
+public class Hello
+{
     public static void main(String[] args)
     {
-        int i=5;
-        while(i<10) {
-            i++;
+        Scanner sdp=new Scanner(System.in);
 
-            System.out.println("Hellooooo");
-            System.out.println("i want to push this code to git");
+        int topspeed=sdp.nextInt();
+        sdp.nextLine();
+        String CarName=sdp.nextLine();
+
+
+        gitLearn mycar = new gitLearn();
+
+        mycar.fast(topspeed,CarName);
+
         }
     }
-}
+
